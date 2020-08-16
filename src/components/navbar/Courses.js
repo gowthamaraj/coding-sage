@@ -1,12 +1,12 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 function Courses(props) {
   return (
     <li class="nav-link">
-      <a class="d-flex flex-column">
+    <Link class="d-flex flex-column" to="/Courses">
         <svg
           width="1.5em"
-          height="em"
+          height="1.5em"
           viewBox="0 0 16 16"
           class="bi bi-book"
           fill="currentColor"
@@ -22,7 +22,7 @@ function Courses(props) {
           />
         </svg>
         <span>Courses</span>
-      </a>
+      </Link>
     </li>
   );
 }
