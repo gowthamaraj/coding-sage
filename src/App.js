@@ -17,7 +17,6 @@ function App() {
               <Route path='/Courses' component={Courses} />
               <Route path='/tutor' component={Tutor} />
         </Switch>
-      
     </div>  
   );
 }
