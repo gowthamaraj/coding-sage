@@ -2,7 +2,7 @@ import React from "react";
 
 function Main(props) {
   return (
-    <div>
+    <div class="p-2" style={{backgroundColor:"#1e2e57",color:"white"}}>
       <h1>CODING SAGE</h1>
 
       <p>
@@ -39,11 +39,9 @@ function Main(props) {
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-
       <div class="modal-body">
         
       </div>
-      
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>

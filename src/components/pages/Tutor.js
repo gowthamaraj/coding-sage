@@ -6,7 +6,7 @@ function Tutor(props) {
 'g':'React Redux Python C C++ JAVA PHP MySQL MongoDB R Perl Dart HTML5 CSS3 JS NodeJS Express Bootstrap4 OpenCV Flask NumPy Scikit-learn Pandas MATLAB shell scripting'.split(' ')
 }
   return (
-    <div class="m-3">
+    <div class="m-3 p-2" style={{backgroundColor:"#1e2e57",color:"black"}}>
       <h3>Our Best Tutors</h3>
       <hr/>
 

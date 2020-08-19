@@ -10,7 +10,7 @@ function Courses(props) {
     {url:"https://img-a.udemycdn.com/course/750x422/2564962_073e_3.jpg",name:"MERN stack",items:["",'','','','']},
 ] 
   return (
-    <div class="m-3">
+    <div class="m-3 p-2" style={{backgroundColor:"#1e2e57",color:"black"}}>
       <h3>Popular Courses</h3>
       <hr/>
       <div class="d-flex flex-wrap">

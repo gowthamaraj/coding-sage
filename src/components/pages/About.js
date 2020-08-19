@@ -2,7 +2,7 @@ import React from "react";
 
 function About(props) {
   return (
-    <div class="m-3">
+    <div class="m-3 p-2" style={{backgroundColor:"#1e2e57",color:"white"}}>
       <em>Basic info About the Institute</em>
       <h3>Innovative and practical driven approach In Training</h3>
       <p>

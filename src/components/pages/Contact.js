@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact(props) {
   return (
-    <div class="" style={{"width": "90%",}}>
+    <div class="m-0" style={{"width": "90%",}}>
       <div class="container contact-form" style={{"background":"-webkit-linear-gradient(left, #0072ff, #00c6ff)"}}>
             <div class="contact-image">
                 <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
@@ -12,13 +12,13 @@ function Contact(props) {
                <div class="row">
                     <div class="col-md">
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" />
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" />
                         </div>
                         <div class="form-group">
                             <input type="submit" name="btnSubmit" class="btnContact" value="Send Message"  style={{backgroundColor:"orange"}}/>
