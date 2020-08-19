@@ -2,19 +2,19 @@ import React from 'react'
 
 function Card(props){
     return(
-        <div class="card m-2 flex-grow-1" style={{"max-width": "18rem"}}>
-  <img class="card-img-top" style={{width:"100%",height:"250px"}} src="https://pluralsight.imgix.net/paths/python-7be70baaac.png" alt="Card image cap" />
+        <div class="card m-2 flex-grow-1" style={{"maxWidth": "18rem"}}>
+  <img class="card-img-top" style={{width:"100%",height:"250px"}} src={props.data.url} />
   <div class="card-body">
-    <h4 class="card-title">Python</h4>
+    <h4 class="card-title">{props.data.name}</h4>
     <p class="card-text">
         
-        <li>Data Science Certification Course Training</li>
-        <li>11,200+ Professionals Trained</li>
-        <li>97.3% Placement Record</li>
-        <li>160 Hours Of Training</li>
-        <li>Live Projects / Internship</li>
+        <li>{props.data.items[0]}</li>
+        <li>{props.data.items[0]}</li>
+        <li>{props.data.items[0]}</li>
+        <li>{props.data.items[0]}</li>
+        <li>{props.data.items[0]}</li>
     </p>
-    <a href="#!" class="btn btn-primary">Know More!!</a>
+    <a href="#!" class="btn btn-secondary">Contact Us!!!</a>
   </div>
   </div>
     )

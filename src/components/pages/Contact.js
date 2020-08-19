@@ -8,7 +8,7 @@ function Contact(props) {
                 <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
             </div>
             <form>
-                <h3>Drop Us a Message</h3>
+                <h3 style={{color:"orange"}}>Drop Us a Message</h3>
                <div class="row">
                     <div class="col-md">
                         <div class="form-group">
@@ -21,7 +21,7 @@ function Contact(props) {
                             <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
                         </div>
                         <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message"  style={{backgroundColor:"orange"}}/>
                         </div>
                     </div>
                     <div class="col-md">
