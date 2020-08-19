@@ -1,9 +1,9 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 function Tutors(props) {
   return (
     <li class="nav-link">
-      <a class="d-flex flex-column">
+    <Link class="d-flex flex-column" to="/Tutor">
         <svg
         width="1.5em"
           height="1.5em"
@@ -18,7 +18,7 @@ function Tutors(props) {
           />
         </svg>
         <span>Tutors</span>
-      </a>
+      </Link>
     </li>
   );
 }

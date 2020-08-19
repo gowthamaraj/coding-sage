@@ -2,18 +2,20 @@ import React from 'react'
 
 function Tutor(props){
     return(
-        <div class="card m-2">
-  <img class="card-img-top" style={{width:"320px",height:"250px"}} src="https://pluralsight.imgix.net/paths/python-7be70baaac.png" alt="Card image cap" />
+        <div class="card m-3" style={{"width": "18rem"}}>
+  <img src="..." class="card-img-top" alt="..." />
   <div class="card-body">
-    <h4 class="card-title">Aishwarya</h4>
-    <p class="card-text">
-        
-        <li>Data Science, Python Trainer</li>
-        <li>3+ yrs of exp</li>
-    </p>
-    <a href="#!" class="btn btn-primary">Know More!!</a>
+    <h5 class="card-title">Gowthamaraj</h5>
+    <p class="card-text">I am a self-taught Software Engineer who loves building software applications. Currently, I am working in Web development and have found it to be very exciting.
+I believe that “I hear and I forget. I see and I remember. I do and I understand”. Hence, I am always working on new projects to learn new things in the field.
+Skills: Python, JavaScript, React.js, Nodejs, PHP, Flask, SQL, MongoDB. </p>
   </div>
-  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Skills: </li>
+    <li class="list-group-item">Experience: </li>
+    <li class="list-group-item">Github: </li>
+  </ul>
+</div>
     )
 }
 

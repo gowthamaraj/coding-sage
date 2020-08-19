@@ -1,9 +1,9 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 function Contacts(props) {
   return (
     <li class="nav-link">
-      <a class="d-flex flex-column">
+    <Link class="d-flex flex-column" to="/contact">
         <svg
         width="1.5em"
           height="1.5em"
@@ -23,7 +23,7 @@ function Contacts(props) {
           />
         </svg>
         <span>Contacts</span>
-      </a>
+      </Link>
     </li>
   );
 }

@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar'
-import {Switch, Route, Link } from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Courses from './components/pages/Courses'
-import Tutors from './components/pages/Tutors'
+import Tutor from './components/pages/Tutor'
+import Contact from './components/pages/Contact'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route path='/about' component={About} />
               <Route path='/Courses' component={Courses} />
               <Route path='/tutor' component={Tutor} />
+              <Route path='/contact' component={Contact} />
         </Switch>
     </div>  
   );

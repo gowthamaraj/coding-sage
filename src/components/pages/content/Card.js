@@ -2,8 +2,8 @@ import React from 'react'
 
 function Card(props){
     return(
-        <div class="card m-2">
-  <img class="card-img-top" style={{width:"320px",height:"250px"}} src="https://pluralsight.imgix.net/paths/python-7be70baaac.png" alt="Card image cap" />
+        <div class="card m-2 flex-grow-1" style={{"max-width": "18rem"}}>
+  <img class="card-img-top" style={{width:"100%",height:"250px"}} src="https://pluralsight.imgix.net/paths/python-7be70baaac.png" alt="Card image cap" />
   <div class="card-body">
     <h4 class="card-title">Python</h4>
     <p class="card-text">
