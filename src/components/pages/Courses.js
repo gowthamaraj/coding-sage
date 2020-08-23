@@ -11,9 +11,9 @@ function Courses(props) {
 ] 
   return (
     <div class="m-3 p-2" style={{backgroundColor:"#1e2e57",color:"black"}}>
-      <h3>Popular Courses</h3>
+      <h3 class="text-center">Popular Courses</h3>
       <hr/>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex flex-wrap justify-content-around">
       <Card data={data[0]}></Card>
       <Card data={data[1]}></Card>
       <Card data={data[2]}></Card>

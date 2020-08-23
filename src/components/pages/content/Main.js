@@ -1,10 +1,11 @@
 import React from "react";
 
+import HomePicture from '../../../assets/HomePicture.png'
 function Main(props) {
   return (
-    <div class="p-2" style={{backgroundColor:"#1e2e57",color:"white"}}>
+    <div class="p-2 m-1 justify-content-center" style={{backgroundColor:"#1e2e57",color:"white",width:'90%'}}>
       <h1>CODING SAGE</h1>
-
+    
       <p>
         The Coding Sage is your one-stop solution for all your fun learning
         needs. With a pool of students based both in India and in the
@@ -24,30 +25,11 @@ function Main(props) {
         many projects at the end of your completion. Industry-ready is the term
         we love to use.
       </p>
-      <div>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Know more
-</button>
-
-<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <button type="button" class="btn btn-primary">
+          Know more
         </button>
-      </div>
-      <div class="modal-body">
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+      <img class="m-5" src={HomePicture} alt="Logo" style={{width:'300px',height:"400px", display:"block"}} />
+      <div>
 
 
        </div>

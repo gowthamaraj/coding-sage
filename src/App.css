@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 .contact-form{
     background: #fff;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
-    width: 70%;
+    width: 95%;
 }
 .contact-form .form-control{
     border-radius:1rem;
@@ -74,14 +74,27 @@ h3{
 }
 
 li a:hover{
-    color: #34383b;
+    color: #f09e08;
     text-decoration: none;
 }
 li a{
-    color: #34383b;
+    color: #dde5eb;
     text-decoration: none;
+    align-self: center;
+    align-items: center;
 }
 
 div{
     border-radius: 5px;
+}
+
+nav img{
+    border-radius: 10%;
+    align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .sage{
+        width: 100px;
+    }
 }

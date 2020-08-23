@@ -7,7 +7,7 @@ import Contact from './navbar/Contact'
 import logo from '../assets/sage.png'
 function Navbar(props) {
   return (
-    <nav>
+    <nav class="bg-dark sage">
       <ul class="nav flex-column rounded">
       <img class="mb-5" src={logo} alt="Logo" style={{"width":"5rem","height":"5rem"}} />
         <Home></Home>
