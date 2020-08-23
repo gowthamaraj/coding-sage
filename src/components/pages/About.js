@@ -32,7 +32,7 @@ function About(props) {
         <div class="card-header">Coding Sage Objectives</div>
         <div class="card-body">
           <h5 class="card-title">Objectives</h5>
-          <p class="card-text">
+          <div class="card-text">
             <ul>
               <li>Practical training to students by working professionals from leading Software companies.</li>
               <li>Get trained by working on real-time projects.</li>
@@ -40,7 +40,7 @@ function About(props) {
               <li>Flexible Timings on Weekday, Weekend & Fast-track sessions.</li>
               <li>Soft skills to build your technical interview skills.</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
 
@@ -52,12 +52,12 @@ function About(props) {
         <div class="card-header">Projects</div>
         <div class="card-body">
           <h5 class="card-title">Guided Projects</h5>
-          <p class="card-text">
+          <div class="card-text">
             Guided Projects are to learn job-relevant skills and industry tools.
             Guided Projects are self-paced, require a smaller time commitment,
             and provide practice using tools in real-world scenarios, so you can
             build the job skills you need, right when you need them.
-          </p>
+          </div>
         </div>
       </div>
 
@@ -82,13 +82,13 @@ function About(props) {
         <div class="card-header">Key Features & Facilities</div>
         <div class="card-body">
           <h5 class="card-title">We provide</h5>
-          <p class="card-text">
+          <div class="card-text">
             <ul>
               <li>1-1 tutoring</li>
               <li>Individual attention for each student with limited class strength per batch</li>
               <li>Up-to-date, industry-relevant course curriculam</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
 
@@ -99,7 +99,7 @@ function About(props) {
         <div class="card-header">Certification</div>
         <div class="card-body">
           <h5 class="card-title">Certification on completion</h5>
-          <p class="card-text">
+          <div class="card-text">
             <ul>
               <li>An assessment will be Evaluated on the basis of an online test and Project performance at the end of the course.</li>
               <li>Performance of Project Evaluation is 30% and that of test is 70%. 50% is the Mandatory minimum score in online test is required.</li>
@@ -108,7 +108,7 @@ function About(props) {
               <li>A Participation certificate will be issued, if the candidate does not score above 70% in the Assessment.</li>
               <li>A Soft copy certificate will be issued to the participant, on completion of the course.</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
 
